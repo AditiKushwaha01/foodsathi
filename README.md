@@ -2,6 +2,9 @@
 
 FoodSathi is a web application aimed at reducing food waste and promoting food donation. This application connects donors, volunteers, and organizations to work collaboratively toward a food-secure community.
 
+## Live Link 
+https://foodsathi-my-frontend.onrender.com/
+
 
 ## Features
 
