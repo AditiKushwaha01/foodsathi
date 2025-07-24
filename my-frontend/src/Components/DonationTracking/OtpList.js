@@ -1,1 +1,1 @@
-export const validOtps = ["1234", "4567", "7890"];
+export const validOtps = ["1234", "4567", "7890", "2164"];

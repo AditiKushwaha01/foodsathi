@@ -98,7 +98,7 @@ const ReceiverTracking = () => {
             </>
           ) : (
             <p>
-              Matched with <strong>SpiceHub Donor</strong> to <strong>XYZ Community Center</strong> on <strong>2025-05-25</strong> at <strong>14:00</strong>
+              Matched with <strong>SpiceHub Donor</strong> to <strong>Akshaya Patra Foundation</strong> via volunteer <strong>Ravi Sharma</strong> on <strong>2025-06-31</strong> at <strong>14:00</strong>
             </p>
           )}
         </div>

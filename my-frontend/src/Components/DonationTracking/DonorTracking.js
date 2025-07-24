@@ -16,12 +16,12 @@ const DonorTracking = () => {
 
   const steps = [
     { label: "Match Accepted", icon: <MdCheckCircle /> },
-    { label: "Waiting for Pickup Volunteer", icon: <MdLocationOn /> },
+    { label: "Sent Pickup Volunteer", icon: <MdLocationOn /> },
     { label: "Provided Food", icon: <MdCheckCircle /> },
   ];
 
   const [donationHistory, setDonationHistory] = useState([
-    { date: "2025-05-25", time: "14:00", ngo: "HelpingHands", restaurant: "SpiceHub", status: "Completed" },
+    { date: "2025-05-25", time: "14:00", ngo: "Akshya Patra Foundation", restaurant: "SpiceHub", status: "Completed" },
     { date: "2025-05-20", time: "13:00", ngo: "FoodRelief", restaurant: "TasteBuds", status: "Completed" },
     { date: "2025-05-15", time: "12:00", ngo: "GreenServe", restaurant: "FlavourSpot", status: "Pending" },
   ]);
@@ -114,7 +114,7 @@ const DonorTracking = () => {
             </>
           ) : (
             <p>
-              Matched with <strong>HelpingHands NGO</strong> from <strong>SpiceHub</strong> Restaurant on <strong>2025-05-25</strong> at <strong>14:00</strong>
+              Matched with <strong>Akshya Patra Foundation </strong> via volunteer <strong> Ravi Sharma</strong> from <strong>SpiceHub</strong> on <strong>2025-06-31</strong> at <strong>14:00</strong>
             </p>
           )}
         </div>
