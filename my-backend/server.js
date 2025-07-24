@@ -17,7 +17,7 @@ const app = express();
 app.use(express.json()); // To parse JSON bodies
 const corsOptions = {
   origin: function (origin, callback) {
-    if (!origin || /^http:\/\/localhost:30\d{2}$/.test(origin)) {
+    if (!origin || /^http:\/\/localhost:30\d{2}$/.test(origin) || origin === 'https://foodsathi-my-frontend.onrender.com') {
       callback(null, true); // ✅ Allow localhost:3000–3099
     } else {
       callback(new Error('Not allowed by CORS'));
